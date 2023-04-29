@@ -46,7 +46,7 @@ function cgrounds(){
 function createObstacles(){
     if(frameCount % 30 == 0){
         x = Math.round(random(10,25))
-        obstacle = createSprite(900,65,x,x)
+        obstacle = createSprite(900,55,x,x)
         obstacle.velocityX = -10
         obstacle.scale = 1.5
         obstacle.lifetime = 100;
